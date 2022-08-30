@@ -1,0 +1,39 @@
+:root {
+  --clr-primary: hsl(86, 53%, 49%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 700;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-weight: var(--fw-400);
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+}
+
+.fw-500 {
+  font-weight: var(--fw-500);
+}
+
+.fw-600 {
+  font-weight: var(--fw-600);
+}
+
+.italic {
+  font-style: italic;
+}
