@@ -26,6 +26,10 @@ body {
   line-height: 1.4;
 }
 
+.fw-400 {
+  font-weight: var(--fw-400);
+}
+
 .fw-500 {
   font-weight: var(--fw-500);
 }
@@ -36,4 +40,20 @@ body {
 
 .italic {
   font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
+}
+
+.text-primary {
+  color: var(--clr-primary);
+}
+
+.text-white {
+  color: var(--clr-white);
 }
